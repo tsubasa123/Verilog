@@ -1,0 +1,68 @@
+$date
+	Tue May  5 13:49:29 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module eighttothreeencoderTB $end
+$var wire 3 ! code [2:0] $end
+$var reg 8 " din [7:0] $end
+$scope module DUT $end
+$var wire 8 # din [7:0] $end
+$var reg 3 $ code [2:0] $end
+$upscope $end
+$scope task initialize $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+b0 #
+b0 "
+bx !
+$end
+#5
+b0 $
+b0 !
+b11111111 "
+b11111111 #
+#10
+b100 $
+b100 !
+b11110000 "
+b11110000 #
+#15
+b0 $
+b0 !
+b1111 "
+b1111 #
+#20
+b10 $
+b10 !
+b1000100 "
+b1000100 #
+#25
+b111 $
+b111 !
+b10000000 "
+b10000000 #
+#30
+b11 $
+b11 !
+b10001000 "
+b10001000 #
+#35
+bx $
+bx !
+b0 "
+b0 #
+#40
+b0 $
+b0 !
+b1 "
+b1 #
+#45
