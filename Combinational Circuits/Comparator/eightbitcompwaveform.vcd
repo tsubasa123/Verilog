@@ -1,0 +1,120 @@
+$date
+	Thu Apr 30 03:28:43 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module eightbitcompTB $end
+$var wire 1 ! A_equal_B $end
+$var wire 1 " A_great_B $end
+$var wire 1 # A_less_B $end
+$var reg 8 $ A [7:0] $end
+$var reg 8 % B [7:0] $end
+$var integer 32 & i [31:0] $end
+$scope module DUT $end
+$var wire 8 ' A [7:0] $end
+$var wire 8 ( B [7:0] $end
+$var reg 1 ) A_equal_B $end
+$var reg 1 * A_great_B $end
+$var reg 1 + A_less_B $end
+$upscope $end
+$scope task initialize $end
+$upscope $end
+$scope task stimulus $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0+
+0*
+1)
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+0#
+0"
+1!
+$end
+#5
+1+
+1#
+0)
+0!
+b1 &
+b10000001 %
+b10000001 (
+b100100 $
+b100100 '
+#10
+b10 &
+b1100011 %
+b1100011 (
+b1001 $
+b1001 '
+#15
+b11 &
+b10001101 %
+b10001101 (
+b1101 $
+b1101 '
+#20
+0+
+0#
+1*
+1"
+b100 &
+b10010 %
+b10010 (
+b1100101 $
+b1100101 '
+#25
+1+
+1#
+0*
+0"
+b101 &
+b1101 %
+b1101 (
+b1 $
+b1 '
+#30
+0+
+0#
+1*
+1"
+b110 &
+b111101 %
+b111101 (
+b1110110 $
+b1110110 '
+#35
+b111 &
+b10001100 %
+b10001100 (
+b11101101 $
+b11101101 '
+#40
+b1000 &
+b11000110 %
+b11000110 (
+b11111001 $
+b11111001 '
+#45
+b1001 &
+b10101010 %
+b10101010 (
+b11000101 $
+b11000101 '
+#50
+b1010 &
+b1110111 %
+b1110111 (
+b11100101 $
+b11100101 '
+#55
