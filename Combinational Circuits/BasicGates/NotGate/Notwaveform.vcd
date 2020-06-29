@@ -1,0 +1,37 @@
+$date
+	Tue Apr  7 21:21:45 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module NotGate_TB $end
+$var wire 1 ! Out $end
+$var reg 1 " In $end
+$scope module DUT $end
+$var wire 1 # In $end
+$var wire 1 ! Out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0#
+0"
+1!
+$end
+#5
+0!
+1"
+1#
+#10
+1!
+0"
+0#
+#15
+0!
+1"
+1#
+#20

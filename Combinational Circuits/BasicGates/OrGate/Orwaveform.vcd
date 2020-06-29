@@ -1,0 +1,43 @@
+$date
+	Tue Apr  7 22:41:09 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module OrGateTB $end
+$var wire 1 ! Out $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$scope module DUT $end
+$var wire 1 $ A $end
+$var wire 1 % B $end
+$var wire 1 ! Out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+0!
+$end
+#5
+1!
+1#
+1%
+#10
+0#
+0%
+1"
+1$
+#15
+1#
+1%
+0"
+0$
+#20
