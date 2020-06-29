@@ -1,0 +1,53 @@
+$date
+	Mon Apr 27 13:26:25 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module HalfAdderTB $end
+$var wire 1 ! Carry $end
+$var wire 1 " Sum $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$scope module DUT $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var reg 1 ' Carry $end
+$var reg 1 ( Sum $end
+$upscope $end
+$scope task Init $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#15
+1(
+1"
+1$
+1&
+#20
+0$
+0&
+1#
+1%
+#25
+1'
+1!
+0(
+0"
+1$
+1&
+#30
