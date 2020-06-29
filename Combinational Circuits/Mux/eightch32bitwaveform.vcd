@@ -1,0 +1,144 @@
+$date
+	Wed Apr 29 22:59:01 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module eightch32bitTB $end
+$var wire 32 ! databus [31:0] $end
+$var reg 32 " D0 [31:0] $end
+$var reg 32 # D1 [31:0] $end
+$var reg 32 $ D2 [31:0] $end
+$var reg 32 % D3 [31:0] $end
+$var reg 32 & D4 [31:0] $end
+$var reg 32 ' D5 [31:0] $end
+$var reg 32 ( D6 [31:0] $end
+$var reg 32 ) D7 [31:0] $end
+$var reg 3 * sel [2:0] $end
+$scope module DUT $end
+$var wire 32 + D0 [31:0] $end
+$var wire 32 , D1 [31:0] $end
+$var wire 32 - D2 [31:0] $end
+$var wire 32 . D3 [31:0] $end
+$var wire 32 / D4 [31:0] $end
+$var wire 32 0 D5 [31:0] $end
+$var wire 32 1 D6 [31:0] $end
+$var wire 32 2 D7 [31:0] $end
+$var wire 3 3 sel [2:0] $end
+$var reg 32 4 databus [31:0] $end
+$upscope $end
+$scope task initialize $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#5
+b101101 4
+b101101 !
+b1 *
+b1 3
+b1001001 )
+b1001001 2
+b111011 (
+b111011 1
+b100001 '
+b100001 0
+b1100011 &
+b1100011 /
+b1001011 %
+b1001011 .
+b11100 $
+b11100 -
+b101101 #
+b101101 ,
+b1101 "
+b1101 +
+#10
+b11001 4
+b11001 !
+b11 *
+b11 3
+b1010011 )
+b1010011 2
+b110001 (
+b110001 1
+b100101 '
+b100101 0
+b10010 &
+b10010 /
+b11001 %
+b11001 .
+b1001010 $
+b1001010 -
+b100011 #
+b100011 ,
+b111111 "
+b111111 +
+#15
+b111011 4
+b111011 !
+b100 *
+b100 3
+b1001001 )
+b1001001 2
+b1011001 (
+b1011001 1
+b1000001 '
+b1000001 0
+b111011 &
+b111011 /
+b110001 %
+b110001 .
+b100010 $
+b100010 -
+b10010 #
+b10010 ,
+b11011 "
+b11011 +
+#20
+b1000111 4
+b1000111 !
+b110 *
+b110 3
+b101110 )
+b101110 2
+b1000111 (
+b1000111 1
+b1010101 '
+b1010101 0
+b1110 &
+b1110 /
+b1000001 %
+b1000001 .
+b110110 $
+b110110 -
+b1000001 #
+b1000001 ,
+b11101 "
+b11101 +
+#25
