@@ -1,0 +1,52 @@
+$date
+	Sun May  3 22:51:42 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module onebitSRlatchTB $end
+$var wire 1 ! Q $end
+$var wire 1 " Qbar $end
+$var reg 1 # En $end
+$var reg 1 $ Reset $end
+$var reg 1 % Set $end
+$scope module DUT $end
+$var wire 1 & En $end
+$var wire 1 " Qbar $end
+$var wire 1 ' Reset $end
+$var wire 1 ( Set $end
+$var reg 1 ) Q $end
+$upscope $end
+$scope task initialize $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x)
+0(
+0'
+0&
+0%
+0$
+0#
+x"
+x!
+$end
+#5
+1"
+0)
+0!
+1#
+1&
+1$
+1'
+#10
+0#
+0&
+0$
+0'
+#15
